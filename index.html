@@ -554,7 +554,7 @@
       function facadeHTML(post) {
         return '' +
           '<button type="button" class="facade" data-yt="' + post.id + '" aria-label="Play video: ' + post.title.replace(/"/g, '&quot;') + '">' +
-            '<img src="assets/thumbs/' + post.id + '.jpg" alt="" />' +
+            '<img src="https://i.ytimg.com/vi/' + post.id + '/hqdefault.jpg" alt="" loading="lazy" />' +
             '<span class="play">' + PLAY_SVG + '</span>' +
             '<span class="watch-label">Play video</span>' +
           '</button>';
